@@ -1,0 +1,115 @@
+header{
+    background: #006669;
+}
+header *{
+    color: white;
+}
+.logo{
+    float: left;
+    height: inherit;
+    height: 2em;
+    color: white;
+}
+h1 .logo-text{
+    float: left;
+    color: white;
+}
+
+.admin-wrapper{
+    display: flex;
+    height: 100vh;
+}
+
+
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background: #006669;
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 20px;
+    display: block;
+    border-bottom: 1px solid white;
+}
+.admin-wrapper .left-sidebar ul li a:hover{
+    background: #005254;
+}
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+.admin-wrapper .admin-content .page-title .input-data{
+    flex: 8;
+    row-gap: 5;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+.admin-content .page-title{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0.5px 1.5px 1px #006669;
+    margin-bottom: 1.5rem;
+}
+.admin-content .page-title .btn .btn-big {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	border: 1px solid #006669;
+	background: transparent;
+	border-radius: 0;
+	color: #006669!important;
+	transform: scale(.8);
+}
+.admin-content .page-title .btn .btn-big:hover {
+	background: #006669;
+	color: white!important;
+	transition: .25s;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size: 1.4rem;
+}
+
+
+th, td{
+    padding: 15px;
+    text-align: left;
+    color: #006669;
+    border-bottom: 1.5px solid #006669;
+}
+
+.edit{
+    color: #006669;
+}
+.delete{
+    color: red;
+}
+.publish{
+    color: #006669;
+}
+
+
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+
+
